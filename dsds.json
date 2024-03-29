@@ -1,0 +1,84 @@
+[
+    {
+      "question": "Quel roman de Jane Austen met en scène les sœurs Bennet et leur quête de mariages convenables ?",
+      "options": [
+        { "text": "Orgueil et Préjugés", "correct": true },
+        { "text": "Raison et Sentiments", "correct": false },
+        { "text": "Emma", "correct": false },
+        { "text": "Persuasion", "correct": false }
+      ]
+    },
+    {
+      "question": "Qui est l'auteur du célèbre roman '1984'?",
+      "options": [
+        { "text": "George Orwell", "correct": true },
+        { "text": "Aldous Huxley", "correct": false },
+        { "text": "Ray Bradbury", "correct": false },
+        { "text": "Franz Kafka", "correct": false }
+      ]
+    },
+    {
+      "question": "Quel est le nom complet de l'auteur de 'Dracula'?",
+      "options": [
+        { "text": "Bram Stoker", "correct": true },
+        { "text": "Edgar Allan Poe", "correct": false },
+        { "text": "Mary Shelley", "correct": false },
+        { "text": "H.P. Lovecraft", "correct": false }
+      ]
+    },
+    {
+      "question": "Qui est l'auteur du roman 'Crime et Châtiment'?",
+      "options": [
+        { "text": "Fiodor Dostoïevski", "correct": true },
+        { "text": "Leo Tolstoï", "correct": false },
+        { "text": "Anton Tchekhov", "correct": false },
+        { "text": "Ivan Tourgueniev", "correct": false }
+      ]
+    },
+    {
+      "question": "Qui est l'auteur du roman 'Les Trois Mousquetaires'?",
+      "options": [
+        { "text": "Alexandre Dumas", "correct": true },
+        { "text": "Victor Hugo", "correct": false },
+        { "text": "Gustave Flaubert", "correct": false },
+        { "text": "Emile Zola", "correct": false }
+      ]
+    },
+    {
+      "question": "Quel est le titre du premier roman de J.R.R. Tolkien dans le monde de la Terre du Milieu?",
+      "options": [
+        { "text": "Le Hobbit", "correct": true },
+        { "text": "La Communauté de l'Anneau", "correct": false },
+        { "text": "Les Enfants de Húrin", "correct": false },
+        { "text": "Le Silmarillion", "correct": false }
+      ]
+    },
+    {
+      "question": "Qui est l'auteur du roman 'Les Hauts de Hurlevent'?",
+      "options": [
+        { "text": "Emily Brontë", "correct": true },
+        { "text": "Charlotte Brontë", "correct": false },
+        { "text": "Anne Brontë", "correct": false },
+        { "text": "Jane Austen", "correct": false }
+      ]
+    },
+    {
+      "question": "Quel est le titre du roman de F. Scott Fitzgerald mettant en scène Jay Gatsby?",
+      "options": [
+        { "text": "Gatsby le Magnifique", "correct": true },
+        { "text": "Tendre est la nuit", "correct": false },
+        { "text": "L'Étranger", "correct": false },
+        { "text": "Par dela le réel", "correct": false }
+      ]
+    },
+    {
+      "question": "Qui est l'auteur du roman 'Anna Karénine'?",
+      "options": [
+        { "text": "Leo Tolstoï", "correct": true },
+        { "text": "Fiodor Dostoïevski", "correct": false },
+        { "text": "Anton Tchekhov", "correct": false },
+        { "text": "Ivan Tourgueniev", "correct": false }
+      ]
+    }
+  ]
+  

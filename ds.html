@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ds1 De Technologie Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz sur le développement web</h1>
+    <form id="quizForm">
+        <h2 class="az">question 1</h2>
+        <label><h3>1. Quel roman de Jane Austen met en scène les sœurs Bennet et leur quête de mariages convenables ?</h3></label> 
+        <input type="radio" name="question1" value="ul"> <label>a) Orgueil et Préjugés</label> <br>
+        <input type="radio" name="question1" value="ol"> <label>b) Raison et Sentiments</label> <br>
+        <input type="radio" name="question1" value="li"> <label>c) Emma</label> <br>
+        <input type="radio" name="question1" value="list"> <label>d) Persuasion </label> <br> 
+        <h2 class="az">question 2</h2>
+        <label><h3>2.Qui est l'auteur du célèbre roman "1984"? ?</h3></label>
+        <input type="radio" name="question2" value="background-color"> <label>a) George Orwell</label> <br>
+        <input type="radio" name="question2" value="color"> <label>b) Aldous Huxley</label> <br>
+        <input type="radio" name="question2" value="fond-color"> <label>c) Ray Bradbury</label> <br>
+        <input type="radio" name="question2" value="background"> <label>d) Franz Kafka</label> <br>
+
+        <h2 class="az">question 3</h2>
+        <label><h3>Quel est le nom complet de l'auteur de "Dracula"?</h3></label>
+        <input type="radio" name="question3" value="background-color"> <label>a) Bram Stoker</label> <br>
+        <input type="radio" name="question3" value="color"> <label>b) Edgar Allan Poe</label> <br>
+        <input type="radio" name="question3" value="fond-color"> <label>c) Mary Shelley</label> <br>
+        <input type="radio" name="question3" value="background"> <label>d) H.P. Lovecraft</label> <br>
+        
+
+        <h2 class="az">question 4</h2>
+        <label><h3>Qui est l'auteur du roman "Crime et Châtiment"?</h3></label>
+        <input type="radio" name="question4" value="background-color"> <label>a) Fiodor Dostoïevski</label> <br>
+        <input type="radio" name="question4" value="color"> <label>b) Leo Tolstoï</label> <br>
+        <input type="radio" name="question4" value="fond-color"> <label>c) Anton Tchekhov</label> <br>
+        <input type="radio" name="question4" value="background"> <label>d) Ivan Tourgueniev</label> <br>
+
+        <h2 class="az">question 5</h2>
+        <label><h3>Qui est l'auteur du roman "Les Trois Mousquetaires"?</h3></label>
+        <input type="radio" name="question5" value="background-color"> <label>a) Victor Hugo</label> <br>
+        <input type="radio" name="question5" value="color"> <label>b) Alexandre Dumas</label> <br>
+        <input type="radio" name="question5" value="fond-color"> <label>c) Gustave Flaubert</label> <br>
+        <input type="radio" name="question5" value="background"> <label>d) Emile Zola</label> <br>
+
+        <h2 class="az">question 6</h2>
+        <label><h3>Quel est le titre du premier roman de J.R.R. Tolkien dans le monde de la Terre du Milieu?</h3></label>
+        <input type="radio" name="question6" value="background-color"> <label>a) Le Hobbit</label> <br>
+        <input type="radio" name="question6" value="color"> <label>b) La Communauté de l'Anneau</label> <br>
+        <input type="radio" name="question6" value="fond-color"> <label>c) Les Enfants de Húrin</label> <br>
+        <input type="radio" name="question6" value="background"> <label>d) Le Silmarillion</label> <br>
+
+
+        <h2 class="az">question 7</h2>
+        <label><h3>Qui est l'auteur du roman "Les Hauts de Hurlevent"?</h3></label>
+        <input type="radio" name="question7" value="background-color"> <label>a) Charlotte Brontë</label> <br>
+        <input type="radio" name="question7" value="color"> <label>b) Emily Brontë</label> <br>
+        <input type="radio" name="question7" value="fond-color"> <label>c) Anne Brontë</label> <br>
+        <input type="radio" name="question7" value="background"> <label>d) Jane Austen</label> <br>
+
+        <h2 class="az">question 8</h2>
+        <label><h3>Quel est le titre du roman de F. Scott Fitzgerald mettant en scène Jay Gatsby?</h3></label>
+        <input type="radio" name="question8" value="background-color"> <label>a) Tendre est la nuit</label> <br>
+        <input type="radio" name="question8" value="color"> <label>b) Gatsby le Magnifique</label> <br>
+        <input type="radio" name="question8" value="fond-color"> <label>c) L'Étranger</label> <br>
+        <input type="radio" name="question8" value="background"> <label>d) Par dela le réel</label> <br>
+
+
+        <h2 class="az">question 9</h2>
+        <label><h3>Qui est l'auteur du roman "Anna Karénine"?</h3></label>
+        <input type="radio" name="question9" value="background-color"> <label>a) Fiodor Dostoïevski</label> <br>
+        <input type="radio" name="question9" value="color"> <label>b) Anton Tchekhov</label> <br>
+        <input type="radio" name="question9" value="fond-color"> <label>c) Leo Tolstoï</label> <br>
+        <input type="radio" name="question9" value="background"> <label>d) Ivan Tourgueniev</label> <br>
+
+
+        <br>
+        <button id="submit" type="submit">Soumettre les réponses</button>
+    </form>
+
+        <br>
+      
+        <button class="b1" type="button" id="prevButton" onclick="prevQuestion()">Question Précédente</button>
+        <button class="b1" type="button" id="nextButton" onclick="nextQuestion()">Question Suivante</button>
+    </form>
+    <div id="feedback"></div>
+</div>
+
+
+<!--hiuldhd hozhz pohzf f pdhzp jh pduhe oelbf peojef pefubf oekfpefo eef oejhfepenpife of-->
+<div class="container">
+    <h1>Quiz sur le développement web</h1>
+    <p>Testez vos connaissances en développement web avec ce quiz ! Répondez aux questions ci-dessous en sélectionnant les bonnes réponses. Assurez-vous de lire attentivement chaque question avant de répondre. Bonne chance !</p>
+    <!-- Instructions et informations supplémentaires -->
+
+    <h2>Informations sur le développement web :</h2>
+    <p>Le développement web est un domaine en constante évolution qui implique la création et la maintenance de sites web et d'applications web. Il comprend des technologies telles que HTML, CSS, JavaScript, et divers frameworks et bibliothèques pour faciliter le développement.</p>
+
+    <h2>Conseils pour le quiz :</h2>
+    <ul>
+        <li>Lisez attentivement chaque question avant de sélectionner une réponse.</li>
+        <li>Essayez d'éliminer les réponses incorrectes pour améliorer vos chances de trouver la bonne réponse.</li>
+        <li>Si vous n'êtes pas sûr d'une réponse, faites confiance à votre intuition, mais ne passez pas trop de temps sur une seule question.</li>
+    </ul>
+
+    <!-- Quiz Form -->
+    <form id="quizForm">
+        <!-- Questions -->
+        <div id="questionsContainer"></div>
+
+        <!-- Boutons de navigation -->
+        <br>
+        
+        <!--<button class="b1" type="button" id="prevButton" onclick="prevQuestion()">Question Précédente</button> -->
+     <!--   <button class="b1" type="button" id="nextButton" onclick="nextQuestion()">Question Suivante</button>   -->
+            
+        <!-- Bouton de soumission -->
+     <!--<button id="submit" type="submit">Soumettre les réponses</button>-->   
+    </form>
+
+    <!-- Rétroaction -->
+    <div id="feedback"></div>
+</div>
+<!--z,pod zdjp mzdojzp zdljzp modijpmd ijef^mij moifefpifeh êfihfeife efîfe îfjfiêhfp -->
+
+<script>
+    document.getElementById('submit').addEventListener('click', function() {
+        var score = 0;
+    
+        // Vérifier la réponse à la question 1
+        var reponse1 = document.querySelector('input[name="question1"]:checked');
+        if (reponse1 && reponse1.value === 'ul') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 2
+        var reponse2 = document.querySelector('input[name="question2"]:checked');
+        if (reponse2 && reponse2.value === 'background-color') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 3
+        var reponse3 = document.querySelector('input[name="question3"]:checked');
+        if (reponse3 && reponse3.value === 'background-color') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 4
+        var reponse4 = document.querySelector('input[name="question4"]:checked');
+        if (reponse4 && reponse4.value === 'background-color') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 5
+        var reponse5 = document.querySelector('input[name="question5"]:checked');
+        if (reponse5 && reponse5.value === 'color') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 6
+        var reponse6 = document.querySelector('input[name="question6"]:checked');
+        if (reponse6 && reponse6.value === 'background-color') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 7
+        var reponse7 = document.querySelector('input[name="question7"]:checked');
+        if (reponse7 && reponse7.value === 'color') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 8
+        var reponse8 = document.querySelector('input[name="question8"]:checked');
+        if (reponse8 && reponse8.value === 'color') {
+            score++;
+        }
+    
+        // Vérifier la réponse à la question 9
+        var reponse9 = document.querySelector('input[name="question9"]:checked');
+        if (reponse9 && reponse9.value === 'fond-color') {
+            score++;
+        }
+    
+        // Afficher le score
+        alert('Votre score est : ' + score + ' sur 9');
+    });
+
+
+
+
+
+    fetch('questions.json')
+  .then(response => response.json())
+  .then(data => {
+    const quizContainer = document.getElementById('quiz');
+    const questions = data;
+    let currentQuestion = 0;
+    let score = 0;
+
+    // Fonction pour afficher une question
+    function displayQuestion(questionIndex) {
+      const questionData = questions[questionIndex];
+      const questionElement = document.createElement('div');
+      questionElement.innerHTML = `
+        <h2 class="az">Question ${questionIndex + 1}</h2>
+        <label><h3>${questionData.question}</h3></label>
+      `;
+      questionData.options.forEach(option => {
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = `question${questionIndex}`;
+        input.value = option.correct;
+        questionElement.appendChild(input);
+        const label = document.createElement('label');
+        label.textContent = option.text;
+        questionElement.appendChild(label);
+        questionElement.appendChild(document.createElement('br'));
+      });
+      quizContainer.innerHTML = '';
+      quizContainer.appendChild(questionElement);
+    }
+
+    // Afficher la première question
+    displayQuestion(currentQuestion);
+
+    // Gérer les réponses
+    document.getElementById('submit').addEventListener('click', function() {
+      const selectedOption = document.querySelector(`input[name="question${currentQuestion}"]:checked`);
+      if (selectedOption) {
+        if (selectedOption.value === 'true') {
+          score++;
+          alert("Bonne réponse !");
+        } else {
+          alert("Mauvaise réponse !");
+        }
+      } else {
+        alert("Veuillez sélectionner une réponse !");
+        return;
+      }
+      if (currentQuestion < questions.length - 1) {
+        currentQuestion++;
+        displayQuestion(currentQuestion);
+      } else {
+        alert(`Votre score est : ${score} sur ${questions.length}`);
+      }
+    });
+
+    // Permettre aux utilisateurs de revenir en arrière pour modifier leurs réponses
+    document.getElementById('prev').addEventListener('click', function() {
+      if (currentQuestion > 0) {
+        currentQuestion--;
+        displayQuestion(currentQuestion);
+      } else {
+        alert("Vous êtes déjà sur la première question !");
+      }
+    });
+  });
+
+
+
+
+    </script>
+    
+
+
+
+
+
+
+
+    
+</body>
+</html>
